@@ -1,0 +1,229 @@
+@charset "utf-8";
+/* CSS Document */
+
+body{padding:0; margin:0; text-align:center; background-color: #ffffff;}
+
+p{padding:0; margin:0;}
+
+*{padding:0; margin:0; border:none;}
+
+img{border:none; padding:0;}
+
+.clear{clear:both}
+/*-----------------Default CODE-------------------*/
+
+#wrap{width:100%; height:auto; padding:0; margin:0; text-align:center;}
+
+.container{width:100%; height:auto; padding:0; margin:0px auto; text-align:center;}
+
+/*#header{width:1000px; height:536px; padding:0; margin:0;}*/
+
+.logo_area{width:100%; height:112px; margin:0; padding:0;}
+
+.logo_inner{width:100%; height:54px; margin:0; padding-top:29px; padding-bottom:29px; padding-left:60px; padding-right:60px;}
+
+.logo_left{width:240px; height:54px; margin:0; padding:0; float:left;}
+
+.logo_img{width:86px; height:50px; margin:0; padding-top: 2px; padding-bottom: 2px; padding-right:1px; float:left;}
+
+.logo_text{width:300px; margin:0; padding:0; float: right;}
+
+.logo_text2{width:125px; height:22px; margin:0; padding:0; float:right; font-family:Arial, Helvetica, sans-serif; font-size:26px; color:#012e60; line-height:22px; text-align:left; font-weight:bold;}
+
+.logo_text1{width:125px; height:32px; margin:0; padding:0; float:right; font-family:Arial, Helvetica, sans-serif; font-size:26px; color:#012e60; line-height:32px; text-align:left; font-weight:bold;}
+
+.logo_right{width:660px; height:54px; margin:0; padding-left:100px; float:right;}
+
+
+.banner_box{width:100%; height:361px; padding-bottom:25px; margin:0;}
+
+/*
+<div class="jumbotron jumbotron-fluid " style="padding: 0px;">
+  <div class="container2" style="max-width: 100%; height: auto; padding-bottom: 30px; padding-top:36px;">
+  <h4  style="font-weight:500; font-size: 27px; color:#ffba00; text-align: center; ">Organize <strong>your Events</strong> in our Restaurant</h4>
+    <div class="row" style="padding-left: 20px;  padding-right: 20px;">
+    <div class="col-sm-6"  style=" padding-top:15px;">
+      <img src="images/event2.jpg" class="img-fluid" alt="" width="480" height="350" >
+    </div>
+
+  </div>
+*/
+
+
+ 
+/*Main Menu Css End*/	
+	.events {
+  background: url(../img/events-bg.jpg) center center no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.events::before {
+  content: '';
+  background-color: rgba(12, 11, 10, 0.8);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.events .section-title h2 {
+  color: #fff;
+}
+
+.events .container {
+  position: relative;
+}
+
+@media (min-width: 1024px) {
+  .events {
+    background-attachment: fixed;
+  }
+}
+
+.events .events-carousel {
+  background: rgba(255, 255, 255, 0.08);
+  padding: 30px;
+}
+
+.events .event-item {
+  color: #fff;
+}
+
+.events .event-item h3 {
+  font-weight: 600;
+  font-size: 26px;
+  color: #ffb03b;
+}
+
+.events .event-item .price {
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  margin-bottom: 15px;
+}
+
+.events .event-item .price span {
+  border-bottom: 2px solid #ffb03b;
+}
+
+.events .event-item ul {
+  list-style: none;
+  padding: 0;
+}
+
+.events .event-item ul li {
+  padding-bottom: 10px;
+}
+
+.events .event-item ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ffb03b;
+}
+
+.events .event-item p:last-child {
+  margin-bottom: 0;
+}
+
+.events .owl-nav, .events .owl-dots {
+  margin-top: 5px;
+  text-align: center;
+}
+
+.events .owl-dot {
+  display: inline-block;
+  margin: 0 5px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #ddd !important;
+}
+
+.events .owl-dot.active {
+  background-color: #ffb03b !important;
+}
+
+@media (min-width: 992px) {
+  .events .testimonial-item p {
+    width: 80%;
+  }
+}
+
+<div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="images/banner1.jpg" alt="" width="1920" height="670">
+      <div class="carousel-caption">
+      <h4 style="font-size: 24px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth..</h4>  
+      <h5 style="font-size: 47px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 24px; color:white; text-align: right; font-weight: bold;">Chase the Flavours!!!</h4><br>
+    <p style="font-size: 20px; color:white; text-align: center; font-weight: bold;">Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p>
+  </div>
+     </div>
+
+    <div class="carousel-item">
+      <img src="images/banner5.jpg" alt="" width="1920" height="900">
+      <div class="carousel-caption">
+      <h4 style="font-size: 25px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth..</h4>  
+      <h5 style="font-size: 47px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 25px; color:white; text-align: right; font-weight: bold;">Chase the Flavours!!!</h4><br>
+    <p style="font-size: 20px; color:white; text-align: center; font-weight: bold;">Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p>
+  </div> 
+    </div>
+
+    <div class="carousel-item ">
+      <img src="images/banner3.jpg" alt="" width="1920" height="670">
+      <div class="carousel-caption d-none d-md-block">
+      <h4 style="font-size: 25px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth......</h4>  
+      <h5 style="font-size: 47px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 25px; color:white; text-align: right; font-weight: bold;">Chase the Flavours!!!</h4><br><br>
+    <p style="font-size: 20px; color:white; text-align: center; font-weight: bold;">Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p>
+  </div>
+    </div>
+    
+    <div class="carousel-item w3-animate-right slowest">
+      <img src="images/banner4.jpg" alt="" width="1000" height="670">
+      <div class="carousel-caption d-none d-md-block">
+      <h4 style="font-size: 25px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth......</h4>  
+      <h5 style="font-size: 47px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 25px; color:white; text-align: right; font-weight: bold;">Chase the Flavours!!!</h4><br><br>
+    <p style="font-size: 20px; color:white; text-align: center; font-weight: bold;">Beyond the basic purpose of restaurants to provide food and drink, restaurants have own historiy,,</p>
+  </div>
+    </div>
+    
+  </div>
+
+
+
+
+  <div class="jumbotron jumbotron-fluid " style="padding: 0px;">
+  <div class="container2" style="max-width: 100%; height: auto; padding-bottom: 40px; padding-top:45px;">
+  <h4  style="font-weight:500; font-size: 29px; color:#ffba00; text-align: center; ">Organize <strong>your Events</strong> in our Restaurant</h4>
+    <div class="row" style="padding-left: 10px;  padding-right: 20px;">
+    <div class="col-md-6"  style=" padding-top:65px;">
+      <img src="images/event4.jpg" class="img-fluid" alt="" width="530" height="490" style="border:1px solid #ffba00" >
+    </div>
+
+    <div class="col-md-6">
+    <h3  style="font-weight: 600; font-size: 26px; color:#ffba00; text-align: center; padding-top:12px; padding-bottom: 10px;"> Marriage Anniversary</h3>
+    <p style="font-size: 16px; text-align:left; padding-right:10px; color:white">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Beyond the basic purpose of restaurants to provide food and drink, restaurants have own historiy. Lorem ipsum dolor sit amet.
+    </p><br>
+    <p style="font-size: 18px; text-align: left; font-weight: bold; color:yellow"><img src="images/right_mark.png" alt="" style="width: 22px; height: 22px;">&nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+   <p style="font-size: 18px; text-align: left; color:yellow; font-weight: bold;"><img src="images/right_mark.png" alt="" style="width: 22px; height: 22px;">&nbsp;Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p><br>
+   <p style="font-size: 16px; text-align:left; padding-right:10px; color:white">
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Beyond the basic purpose of restaurants to provide food and drink, restaurants have own historiy. Lorem ipsum dolor sit amet.
+    </p>
+    </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+
+
