@@ -1,0 +1,1028 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/hover.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/animations.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>TastyTreat's Menu</title>
+    <style type="text/css">
+    
+ .logo{
+  width: 242px;
+}
+
+  #scroll{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 21px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(#ffba00,brown);
+  color: white;
+  cursor: pointer; 
+  padding: 5px;
+  border-radius: 50px;
+}
+
+#scroll:hover {
+  background-image: linear-gradient(brown,#ffba00);
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.container1{
+    background-image: url("images/details.jpg"); 
+    max-width:100%;
+    height: 800px;
+    height: auto;
+    background-size: cover;
+    
+  }
+</style>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+   <div class="logo">
+   <img src="images/res_logo.png" alt="" width="57" height="65" style="padding-right: 0px;">
+   <img src="images/logo_text.png" alt="" width="180" height="28" style="padding-right: 0px;"></div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02" style="">
+    <ul class="navbar-nav"  style="font-weight:540; font-size: 18px;">
+  
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-top" href="index.html" >Home</a>
+    </li>
+    &nbsp;
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-top" href="menu.html" style="color:black;">Menu</a>
+    </li>
+    &nbsp;
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-bottom" href="gallery.html" style="color:black;">Gallery</a>
+    </li>
+    &nbsp;
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-left" href="contact_us.html" style="color:black;">Contact Us</a>
+    </li>    
+    </ul>
+   
+  </div>
+
+  <button type="button" class="btn btn-warning hvr-buzz-out justify-content-end" style="color:white; font-weight:bold;"><a href="book.html">Book a Table</a></button>
+</nav>
+
+<div class="navbar navbar-light  justify-content-end" style="background-color:black; padding-top: 12px; padding-bottom: 10px; padding-right: 20px;">
+  
+  <h5 style="color:white; font-size: 17px;"><i class="fa fa-fw fa-phone" style="color:#ffba00; font-size: 19px;"></i>+919434829534 </h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <h5 style="color:white; font-size: 17px;"><i class="fa fa-fw fa-calendar-check" style="color:#ffba00; font-size: 19px;"></i>&nbsp;Sun to Sat </h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h5 style="color:white; font-size: 17px;"><i class="fa fa-fw fa-user-clock" style="color:#ffba00; font-size: 19px;"></i>&nbsp;&nbsp;9A.M to 2A.M </h5>
+  </div>
+<!-- End of Nav Bar -->
+
+<button onclick="topFunction()" id="scroll" title="Go to top" class="button" style="font-size: 30px;">⇪</button>
+
+
+<!-- LOGO AREA ENDS HERE -->
+
+<!-- Start of Banner -->
+<div id="dem" class="carousel slide animatedParent" data-ride="carousel">
+
+  <!-- Indicators -->
+  <ul class="carousel-indicators">
+    <li data-target="#dem" data-slide-to="0" class="active"></li>
+
+    <li data-target="#dem" data-slide-to="1"></li>
+
+    <li data-target="#dem" data-slide-to="2"></li>
+
+    <li data-target="#dem" data-slide-to="3"></li>
+
+  </ul>
+  
+  <!-- The slideshow -->
+  
+  <div class="carousel-inner" style="text-align: center;">
+    <div class="carousel-item active" style="background-image: url('images/banner1.jpg'); max-width:100%; height: auto; background-size: cover;">
+      <div class="container" style="padding-left: 60px; padding-right: 30px;"><br><br><br><br>
+      <h4 style="font-size: 26px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth..</h4>  
+      <h5 style="font-size: 49px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 26px; color:white; text-align: right; font-weight: bold; padding-right: 90px;">Chase the Flavours!!!</h4><br><br>
+    <p style="font-size: 22px; color:white; text-align: center; font-weight: bold;">Lorem ipsum dolor sit amet. Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p><br><br><br>
+  </div>
+     </div>
+
+    <div class="carousel-item" style="background-image: url('images/banner2.jpg'); max-width:100%; height: auto; background-size: cover;">
+      <div class="container" style="padding-left: 60px; padding-right: 30px;"><br><br><br><br>
+      <h4 style="font-size: 26px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth..</h4>  
+      <h5 style="font-size: 49px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 26px; color:white; text-align: right; font-weight: bold; padding-right: 90px;">Chase the Flavours!!!</h4><br><br>
+    <p style="font-size: 22px; color:white; text-align: center; font-weight: bold;">Lorem ipsum dolor sit amet. Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p><br><br><br>
+  </div>
+     </div>
+
+    <div class="carousel-item" style="background-image: url('images/banner3.jpg'); max-width:100%; height: auto; background-size: cover;">
+      <div class="container" style="padding-left: 60px; padding-right: 30px;"><br><br><br><br>
+      <h4 style="font-size: 26px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth..</h4>  
+      <h5 style="font-size: 49px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 26px; color:white; text-align: right; font-weight: bold; padding-right: 90px;">Chase the Flavours!!!</h4><br><br>
+    <p style="font-size: 22px; color:white; text-align: center; font-weight: bold;">Lorem ipsum dolor sit amet. Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p><br><br><br>
+  </div>
+     </div>
+    
+    <div class="carousel-item" style="background-image: url('images/banner4.jpg'); max-width:100%; height: auto; background-size: cover;">
+      <div class="container" style="padding-left: 60px; padding-right: 30px;"><br><br><br><br>
+      <h4 style="font-size: 26px; color:white; text-align: left; font-weight: bold;">Deliciousness Jumping into the Mouth..</h4>  
+      <h5 style="font-size: 49px; color:#ffba00; text-align:center; font-weight: bold;">Tasty Treat</h5>
+      <h4 style="font-size: 26px; color:white; text-align: right; font-weight: bold; padding-right: 90px;">Chase the Flavours!!!</h4><br><br>
+    <p style="font-size: 22px; color:white; text-align: center; font-weight: bold;">Lorem ipsum dolor sit amet. Beyond the basic purpose of restaurants to provide food and drink, restaurants have own history,,</p><br><br><br>
+  </div>
+     </div>
+    
+  </div>
+  <!-- Left and right controls -->
+  <a class="carousel-control-prev" href="#dem" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#dem" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div><br>
+<!-- End of Banner -->
+
+
+
+<!-- BODY PART starts-->
+<div class="container-fluid" style="padding-top: 20px; padding-bottom: 20px; padding-left: 10px; padding-right: 10px;">
+  <h4  style="font-weight: 600; font-size: 30px; color:#ffba00; text-align: center; ">Our variety of <strong>Dishes</strong></h4><br>
+  <div class="row">
+    <div class="col-md-2" style="border-right: 3px solid #ffba00;">
+      <h4  style="font-weight: 540; font-size: 24px; color:#ffba00; text-align:center; ">Type of <strong>Foods</strong></h4><br>
+      <a href="#starters"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">Starters</h4></a><br>
+      <a href="#south"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">South Indian Foods</h4></a><br>
+      <a href="#noodles"><h4  style=" font-size: 17px; color:black; text-align:left; padding-left: 6px;">Noodles</h4></a><br>
+      <a href="#pizza"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">Pizza</h4></a><br>
+      <a href="#paratha"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">Breads & Parathas</h4></a><br>
+      <a href="#rice"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">Rice & Biriyani</h4></a><br>
+      <a href="#curry"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">Curry Items</h4></a><br>
+      <a href="#cold"><h4  style=" font-size: 17px; color:black; text-align: left; padding-left: 6px;">Cold Beverage</h4></a><br>
+    </div>
+
+    <div class="col-md-10">
+
+<!-- Starter starts-->      
+      <h4 id="starters" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">Starters-স্টার্টার</h4><br>
+      <div class="animatedParent">
+      <div class="row animated bounceInDown slow">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu6.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">CHICKEN TIKKA<br>চিকেন টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>200</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu4.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">TANDOORI PANEER TIKKA<br>তন্দুর পনির টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>185</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu8.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MALAI TIKKA<br>মালাই টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>235</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInDown slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu7.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">CHICKEN RESHMI KABAB<br>চিকেন রেশমি কাবাব<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>170</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu5.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANEER MALAI TIKKA<br>মালাই পানির টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>200</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu39.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">ACHARI TIKKA<br>আচারি টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>200</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInDown slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu36.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">TANDOORI CHICKEN<br>তন্দুরি চিকেন<br>3 pieces <i class="fa fa-fw fa-rupee-sign"></i>180</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu38.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">ACHARI PANEER TIKKA<br>আচারি পনির টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>180</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu37.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">TANDOORI FISH TIKKA<br>তন্দুরি ফিস টিক্কা<br>6 pieces <i class="fa fa-fw fa-rupee-sign"></i>265</h5>
+          </div></div>
+        </div>
+      </div></div><br><br>
+
+<!--Starter ends-->
+
+
+<!-- South Indian starts-->
+<div class="animatedParent">
+    <h4 id="south" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">South Indian Foods-দক্ষিণ ভারতীয়</h4><br>
+      <div class="row animated growIn slow">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Plain Dhosa<br>প্লেন ধোসা<i class="fa fa-fw fa-rupee-sign"></i>60</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu40.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANEER MASALA DOSA<br>পনির মশালা ধোসা<i class="fa fa-fw fa-rupee-sign"></i>95</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu41.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PLAIN-IDLY<br>প্লেন-ইডলি<i class="fa fa-fw fa-rupee-sign"></i>60</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated growIn slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu1.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MASALA DOSA<br>মশালা ধোসা<i class="fa fa-fw fa-rupee-sign"></i>70
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu2.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Masala Uthappam<br>মশালা উত্তপম্<i class="fa fa-fw fa-rupee-sign"></i>65</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu47.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div><
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MYSORE MASALA DOSA<br>মাইসোর বাটার মশালা ধোসা<i class="fa fa-fw fa-rupee-sign"></i>75</h5>
+          </div></div>
+        </div>
+      </div></div><br><br>
+<!-- South Indian ends-->
+<div class="animatedParent">
+    <h4 id="noodles" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">Noodles-নুডলস</h4><br>
+      <div class="row animated bounceInLeft slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu20.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Veg Hakka Noodlees<br>ভেজ হাক্কা নুডলস<i class="fa fa-fw fa-rupee-sign"></i>65</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu56.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">EGG HAKKA NOODLES<br>এগ হাক্কা নুডুলস<i class="fa fa-fw fa-rupee-sign"></i>80</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu55.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">CHICKEN HAKKA NOODLES<br>চিকেন হাক্কা নুডুলস<i class="fa fa-fw fa-rupee-sign"></i>95</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInLeft slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu57.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MIXED HAKKA NOODLES<br>মিক্সড হক্ক নুডুলস<i class="fa fa-fw fa-rupee-sign"></i>115</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu58.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">GRAVY NOODLES<br>গ্রেভি নুডলস<i class="fa fa-fw fa-rupee-sign"></i>100</h5>
+          </div></div>
+        </div>
+      </div></div><br><br>
+
+<div class="animatedParent">
+      <h4 id="pizza" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">Pizza-পিজ্জা</h4><br>
+      <div class="row animated bounceInRight slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu64.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Chicken Tikka Pizza<br>চিকেন টিক্কা পিজ্জা<i class="fa fa-fw fa-rupee-sign"></i>165</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu65.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Achari Chicken Pizza<br>স্পাইসি আচারি চিকেন পিজ্জা<i class="fa fa-fw fa-rupee-sign"></i>185</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu66.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Chicken Bharta Pizza<br>চিকেন ভর্তা পিজ্জা<i class="fa fa-fw fa-rupee-sign"></i>205</h5>
+          </div></div>
+        </div>
+      </div> 
+      
+      <div class="row animated bounceInRight slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu67.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Sahi Indian Pizza<br>শাহী ইণ্ডিয়ান পিজ্জা<i class="fa fa-fw fa-rupee-sign"></i>165</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu68.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Achari Paneer Pizza<br>আচারি পনির পিজ্জা<i class="fa fa-fw fa-rupee-sign"></i>185</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu69.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Kadai Paneer Pizza<br>কড়াই পনির পিজ্জা<i class="fa fa-fw fa-rupee-sign"></i>170</h5>
+          </div></div>
+        </div>
+      </div></div><br><br> 
+
+<div class="animatedParent">
+      <h4 id="paratha" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">Breads & Parathas-ব্রেডস ও পরোটা</h4><br>
+      <div class="row animated bounceInUp ">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu31.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">TAWA LACCHA PARATHA<br>তাওয়া লাচ্চা পরোটা<br>2 pieces<i class="fa fa-fw fa-rupee-sign"></i>40</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu29.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">ALU PARATHA<br>আলু পরোটা<br>2 pieces<i class="fa fa-fw fa-rupee-sign"></i>50</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu44.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANEER PARATHA<br>পনির পরোটা<br>2 pieces<i class="fa fa-fw fa-rupee-sign"></i>65</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInUp slow">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu45.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">CHICKEN KEEMA PARATHA<br>চিকেন কিমা পরোটা<br>2 pieces<i class="fa fa-fw fa-rupee-sign"></i>65</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu24.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PLAIN NAAN<br>প্লেন নান<br>1 pieces<i class="fa fa-fw fa-rupee-sign"></i>30</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu73.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">BUTTER NAAN<br>বাটার নান<br>2 pieces<i class="fa fa-fw fa-rupee-sign"></i>35</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInUp slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu70.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PLAIN TANDOORI ROTI<br>প্লেন তন্দুরি রুটি<br>1 piece<i class="fa fa-fw fa-rupee-sign"></i>15</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu71.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">BUTTER TANDOORI ROTI<br> বাটার তন্দুরি রুটি<br>1 piece<i class="fa fa-fw fa-rupee-sign"></i>20</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu72.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANNER KULCHA<br>পনির কুলচা<br>1 piece<i class="fa fa-fw fa-rupee-sign"></i>60</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInUp slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu32.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MASALA KULCHA<br>মশালা কুলচা<br>1 piece<i class="fa fa-fw fa-rupee-sign"></i>55</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu43.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">CHICKEN KEEMA KULCHA<br>চিকেন কিমা কুলচা<br>1 piece<i class="fa fa-fw fa-rupee-sign"></i>70</h5>
+          </div> </div>
+        </div>
+      </div></div><br><br>
+
+      <!-- Rice starts-->
+<div class="animatedParent">
+    <h4 id="rice" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">Rice & Biriyani-রাইস & বিরিয়ানি</h4><br>
+      <div class="row animated growIn">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu20.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PLAIN RICE 125 Gm<br>প্লেন রাইস ১২৫ গ্রাম<i class="fa fa-fw fa-rupee-sign"></i>50</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu23.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">ZEERA RICE<br>জিরা রাইস<i class="fa fa-fw fa-rupee-sign"></i>85</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu21.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PEAS PULAO<br>পীস পুলাও<i class="fa fa-fw fa-rupee-sign"></i>95</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated growIn slow">
+      <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu34.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Handi Biryani Chicken/mutton<br>হানডি বিরিয়ানি<i class="fa fa-fw fa-rupee-sign"></i>145/175</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu49.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Awada Biryani Chicken/mutton<br>অওধ বিরিয়ানি<i class="fa fa-fw fa-rupee-sign"></i>230/265</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu59.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Veg Fried Rice<br>ভেজ ফ্রাইড রাইস<i class="fa fa-fw fa-rupee-sign"></i>95</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated growIn slower">
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu62.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Egg Fried Rice<br>এগ ফ্রাইড রাইস<i class="fa fa-fw fa-rupee-sign"></i>110</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu60.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Chicken Fried Rice<br>চিকেন ফ্রাইড রাইস<i class="fa fa-fw fa-rupee-sign"></i>130</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu22.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MIXED FRIED RICE<br>মিক্সড ফ্রায়েড রাইস<i class="fa fa-fw fa-rupee-sign"></i>165</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated growIn slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu52.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">SEJWAN EGG FRIED RICE<br>সেজওয়ান এগ ফ্রায়েড রাইস<i class="fa fa-fw fa-rupee-sign"></i>125</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu63.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">SCHEZWAN CHICKEN FRIED RICE<br>সেজওয়ান চিকেন ফ্রায়েড রাইস<i class="fa fa-fw fa-rupee-sign"></i>150</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu54.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">SCHEZWAN MIXED FRIED RICE<br>সেজওয়ান মিক্সড ফ্রায়েড রাইস<i class="fa fa-fw fa-rupee-sign"></i>215</h5>
+          </div></div>
+        </div>
+      </div></div><br><br>
+
+<div class="animatedParent">
+      <h4 id="curry" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">Main Course Curry items-মেইন কোর্স কারি</h4><br>
+      <h4 style="font-weight: 540; font-size: 20px; color:#ffba00; text-align: center; ">Veg Curries</h4><br>
+      <div class="row">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu74.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">KASHMIRI ALUR DUM<br>কাশ্মীরি আলুর দম<i class="fa fa-fw fa-rupee-sign"></i>100</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu75.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MIX VEG<br>মিক্স ভেজ<i class="fa fa-fw fa-rupee-sign"></i>130</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu76.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANNER BUTTER MASALA<br>পনির বাটার মশালা<i class="fa fa-fw fa-rupee-sign"></i>155</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu77.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANNER TIKKA MAKHANI<br>পনির টিক্কা মাখানি<i class="fa fa-fw fa-rupee-sign"></i>200</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu86.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PANNER MAKHANI<br>পনির মাখানি<i class="fa fa-fw fa-rupee-sign"></i>160</h5>
+          </div></div>
+        </div>
+      </div><br><br>
+
+      <h4 style="font-weight: 540; font-size: 20px; color:#ffba00; text-align: center; ">Nonveg Curries</h4><br>
+      <div class="row animated bounceInDown slow">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu85.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MUTTON KOSA 3 PC WITH BONE<br>মাটন কষা<i class="fa fa-fw fa-rupee-sign"></i>265</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu79.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 14px;">TANDOOR CHICKEN BUTTER MASALA<br>তন্দুর চিকেন বাটার মশালা<i class="fa fa-fw fa-rupee-sign"></i>245</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu80.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MURGH MAKHANI<br>কুইক মিল মুর্গ মাখানি<i class="fa fa-fw fa-rupee-sign"></i>245</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInDown slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu81.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">SPICY KADAI CHICKEN<br>স্পাইসি কড়াই চিকেন<i class="fa fa-fw fa-rupee-sign"></i>220</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu82.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">CHATPATA CHICKEN DHANIA<br>চটপটা চিকেন<i class="fa fa-fw fa-rupee-sign"></i>245</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu83.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">chicken chap<br>চিকেন চাপ<i class="fa fa-fw fa-rupee-sign"></i>245</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInDown slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu86.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">ROASTED CHICKEN MASALA<br>রোস্টেড চিকেন মশালা<i class="fa fa-fw fa-rupee-sign"></i>210</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu84.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 14px;">FISH BUTTER MASALA<br>ফিস বাটার মশালা <i class="fa fa-fw fa-rupee-sign"></i>245</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu87.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">FISH TIKKA MAKHANI<br>টিক্কা মাখানি<i class="fa fa-fw fa-rupee-sign"></i>245</h5>
+          </div></div>
+        </div>
+      </div></div><br><br>
+
+<div class="animatedParent">
+      <h4 id="cold" style="font-weight: 540; font-size: 25px; color:#ffba00; text-align: center; ">COLD BEVERAGE-ঠান্ডা পানিও</h4><br>
+      <div class="row animated bounceInUp slow">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu88.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">MATTHI KA DAHI LASSI<br>মাট্টি কা দহি লস্যি<i class="fa fa-fw fa-rupee-sign"></i>45</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu89.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 14px;">MATTHI KA MANGO LASSI<br>মাট্টি কা আম লস্যি<i class="fa fa-fw fa-rupee-sign"></i>55</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu90.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">PISTA LASSI<br>শাহী বাদাম পেস্তা লস্যি<i class="fa fa-fw fa-rupee-sign"></i>55</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInUp slower">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu91.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Alphanso Mango Smoothie<br>আ্যলফ্যানসো ম্যাঙ্গো স্মুদি<i class="fa fa-fw fa-rupee-sign"></i>60</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu92.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Strawberry Delight Smoothie<br>স্ট্রবেরী ডিলাইট স্মুদি<i class="fa fa-fw fa-rupee-sign"></i>60</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu93.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Pista Smoothie<br>পেস্তা স্মুদি<i class="fa fa-fw fa-rupee-sign"></i>70</h5>
+          </div></div>
+        </div>
+      </div>
+
+      <div class="row animated bounceInUp slowest">
+       <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu94.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 16px;">Sahi Kesaria Badam Smoothie<br>শাহীকেশরিয়া বাদাম স্মুদি<i class="fa fa-fw fa-rupee-sign"></i>70</h5>
+          </div></div>
+        </div>
+        <div class="col-md-4">
+          <div class="row" style="padding-top: 20px;">
+          <div class="col-xs-4" style="padding-left: 25px;">
+          <img class="img-fluid" src="images/menu95.jpg" alt="" height="72" width="72" style="border-radius: 5px;">
+        </div>
+          <div class="col-xs-8" style="padding-left: 10px;">
+            <h5 style="font-size: 14px;">Doier Chanch<br>দইয়ের ছাঁচ<i class="fa fa-fw fa-rupee-sign"></i>45</h5>
+          </div></div>
+        </div>
+      </div><br><br>
+
+    </div>
+  </div><br>
+</div>
+<!-- BODY PART ends-->
+
+<!-- start of footer -->
+<div class="container-fluid"> 
+  <div class="row" style="background-color:#101010; padding-bottom: 6px; padding-top: 15px; padding-left: 15px; padding-right:15px;">
+    <div class="col-md-3" style="padding-top:15px; padding-bottom: 15px;">
+    <h3 style="text-align: center; color:#ffba00; font-size:19px; font-weight:bold;">Our Services</h3>
+      
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Becoming an good resource.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Improve interaction with existing and potential customers.</h5>
+      <h5 style="font-size: 16px; text-align: left;color:#ffffff;"><img src="images/right.jpg">&nbsp;Providing quality content on your dishes,regularly adding new recipes.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Chase the Flavours.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Deliciousness Jumping into the mouth.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Quality, Quantity & Taste is everything, provides a qualty time.</h5>
+    </div>  
+    
+    <div class="col-md-2" style="padding-top:15px; padding-bottom: 15px;" >
+      <h3 style="text-align: center;  color:#ffba00; font-size:19px; font-weight:bold;">Useful links</h3>
+      <a href="index.html" style="color:#ffffff; font-size: 18px;">Home</a><br><br>
+      <a href="menu.html" style="color:#ffffff; font-size: 18px;">Menu</a><br><br>
+      <a href="gallery.html" style="color:#ffffff; font-size: 18px;">Gallery</a><br><br>
+      <a href="book.html" style="color:#ffffff; font-size: 18px;">Book Table</a><br><br>
+      <a href="contact_us.html" style="color:#ffffff; font-size: 18px;">Contact Us</a>
+    </div>
+    
+    <div class="col-md-4" style="padding-top:15px; padding-bottom: 15px;">
+    <h3 style="text-align: center; color:#ffba00; font-size:19px; font-weight:bold;">Contact us</h3>
+    <h4 style="font-size: 16px; color:#ffffff"><img src="images/ADDRESS.png" alt="" width="20" height="30">&nbsp;&nbsp;Radhabazar Park,<br>&nbsp;Radha Bazar, Nabadwip-741302 ;<br>State : West Bengal.</h4><br>
+    <h4 style="font-size: 17px; color:#ffffff"><img src="images/MOBILE.png" alt="" width="42" height="45">&nbsp;+919434829534</h4><br>
+    <h4 style="font-size: 16px; color:#ffffff"><img src="images/MailFoot.jpg" alt="" width="26" height="26">&nbsp;&nbsp;creative_designers@<br>gmail.com</h4><br>
+    <h4 style="font-size: 17px; color:#ffffff"><img src="images/WP1.jpg" alt="" width="30" height="30" style="border-radius: 10px;">&nbsp;&nbsp;+919434823492</h4>><br>
+    </div>
+  
+    <div class="col-md-3" style="padding-top:15px; padding-bottom: 5px;">
+    <h3 style="text-align: center; color:#ffba00; font-size:19px; font-weight:bold;">Create your Profile</h3>
+      <h4 style="text-align: justify;  font-size: 16px; color:#ffffff"><img src="images/right.jpg">&nbsp;New in our site ? Chcek our Dishes & our Restaurant then register here to get special offers .</h4><br>
+      <button type="button" class="btn btn-warning hvr-buzz-out" style="font-size: 17px; font-weight:540;"><a href="contact_us.html">Register</a></button><br><br>
+      <h4 style="text-align: justify; font-size: 16px; color:#ffffff"><img src="images/right.jpg">&nbsp;Already have a profile ? then login here , else register to get special offers .</h4><br>
+      <button type="button" class="btn btn-warning hvr-buzz-out" style="font-size: 17px; font-weight:540;"><a href="login.html">Login</a></button>
+    </div> </div> </div>
+
+  <!--Footer_top End-->
+
+<!--Footer_Bottom Start-->  
+
+  <div class="container-fluid" style="background-color: #000000;">
+    <div class="row" style="padding-left:30px; padding-right:30px; padding-top: 10px; padding-bottom: 10px;">
+      <div class="col-lg-4" style="padding-top: 12px; padding-bottom: 3px;">
+      <p class="w3-hover-opacity" style="font-weight: 500; color:#ffba00; font-size:16px; text-align:center;">CopyrightⒸ2020. All Rights Reserved.</p>
+      </div>  
+  <div class="col-lg-4" style="padding-top: 12px; padding-bottom: 3px;">
+    <span style="font-size:17px; color:#ffffff; font-weight:700px;">Follow us on : </span>&nbsp;
+      <a href="http://www.facebook.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="Facebook" class="w3-spin" src="images/link_fb.png" alt="" width="32" height="32"/></a>
+      <a href="http://www.twitter.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="Twitter" class="w3-spin" src="images/link_tw.png" alt="" width="32" height="32"/></a>
+      <a href="http://www.youtube.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="youtube" class="w3-spin" src="images/link_yt.png" alt="" width="32" height="32"/></a>
+      <a href="http://www.gmail.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="Gmail" class="w3-spin" src="images/link_ml.png" alt="" width="32" height="32"/></a>
+  </div>  
+    <div class="col-lg-4" style="padding-top: 12px; padding-bottom: 3px;">  
+      <p style="text-align:center; color:#ffba00; font-size:17px; font-style: arial; font-weight: 600;">Designed & powered by: <strong>Saptaswa</strong></p>
+    </div>
+    </div>
+  </div>
+  
+<!--Footer_Bottom End-->
+
+<!-- ALL SCRIPTING LAGUAGES ARE LINKED HERE:STARTING-->
+  <script src="js/popper.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/slim.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/css3-animate-it.js"></script>
+
+
+<!-- ALL SCRIPTING LAGUAGES ARE LINKED HERE:ENDING -->
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("scroll");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
+

@@ -1,0 +1,295 @@
+<!doctype html>
+<html lang="en">
+  <meta charset="utf-8">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/animations.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="css/hover.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+    <title>TastyTreat's Booking</title>
+    <style type="text/css">
+    
+ .logo{
+  width: 242px;
+}
+
+  #scroll{
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 21px;
+  border: none;
+  outline: none;
+  background-image: linear-gradient(#ffba00,brown);
+  color: white;
+  cursor: pointer; 
+  padding: 5px;
+  border-radius: 50px;
+}
+
+#scroll:hover {
+  background-image: linear-gradient(brown,#ffba00);
+}
+
+.carousel-inner img {
+      width: 100%;
+      height: 100%;
+  }
+
+.container1{
+    background-image: url("images/details.jpg"); 
+    max-width:100%;
+    height: 800px;
+    height: auto;
+    background-size: cover;
+    
+  }
+</style>
+  </head>
+  <body>
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+   <div class="logo">
+   <img src="images/res_logo.png" alt="" width="57" height="65" style="padding-right: 0px;">
+   <img src="images/logo_text.png" alt="" width="180" height="28" style="padding-right: 0px;"></div>
+
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02" style="">
+    <ul class="navbar-nav"  style="font-weight:540; font-size: 18px;">
+  
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-top" href="index.html" >Home</a>
+    </li>
+    &nbsp;
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-bottom" href="menu.html" style="color:black;">Menu</a>
+    </li>
+    &nbsp;
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-right" href="gallery.html" style="color:black;">Gallery</a>
+    </li>
+    &nbsp;
+    <li class="nav-item">
+      <a class="nav-link hvr-bounce-to-left" href="contact_us.html" style="color:black;">Contact Us</a>
+    </li>    
+    </ul> 
+  </div>
+
+  <button type="button" class="btn btn-warning hvr-buzz-out justify-content-end" style="color:white; font-weight:bold;"><a href="book.html">Book a Table</a></button>
+</nav>
+
+<div class="navbar navbar-light  justify-content-end" style="background-color:black; padding-top: 12px; padding-bottom: 10px; padding-right: 20px;">
+  
+  <h5 style="color:white; font-size: 17px;"><i class="fa fa-fw fa-phone" style="color:#ffba00; font-size: 19px;"></i>+919434829534 </h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+  <h5 style="color:white; font-size: 17px;"><i class="fa fa-fw fa-calendar-check" style="color:#ffba00; font-size: 19px;"></i>&nbsp;Sun to Sat </h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <h5 style="color:white; font-size: 17px;"><i class="fa fa-fw fa-user-clock" style="color:#ffba00; font-size: 19px;"></i>&nbsp;&nbsp;9A.M to 2A.M </h5>
+  </div><br>
+<!-- End of Nav Bar -->
+
+<button onclick="topFunction()" id="scroll" title="Go to top" class="button" style="font-size: 30px;">⇪</button>
+
+
+<!-- LOGO AREA ENDS HERE -->
+
+
+
+<!-- Login PART STARTS FROM HERE -->
+<div class="container-fluid" style="padding-left:50px; padding-right:50px;">
+  <h5 style="color:#ffba00; padding-bottom:10px; font-size: 27px; font-weight: bold;">Check availibility & <strong>book online</strong> ~</h5>
+  <form >
+  <div class="form-row">
+    <div class="form-group col-sm-6" style="text-align: left;">
+      <label for="inputFirstname" style="color:#ffba00; font-size:17px; font-weight:600;">First Name</label>
+      <input type="text" class="form-control" placeholder="First name">
+    </div>
+    <div class="col-sm-6" style="text-align: left;">
+    <label for="inputLastname" style="color:#ffba00; font-size:17px; font-weight:600;">Last Name</label>
+      <input type="text" class="form-control" placeholder="Last name">
+    </div>
+  </div>
+<div class="form-row">
+    <div class="form-group col-md-6" style="text-align: left;">
+      <label for="inputEmail4" style="color:#ffba00; font-size:17px; font-weight:600;">Email</label>
+      <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+    </div>
+    <div class="form-group col-md-6" style="text-align: left;">
+      <label for="inputPassword4" style="color:#ffba00; font-size:17px; font-weight:600;">Password</label>
+      <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+    </div>
+  </div>
+  <div class="form-group" style="text-align: left;">
+    <label for="inputAddress" style="color:#ffba00; font-size:17px; font-weight:600;">Address1</label>
+    <input type="text" class="form-control" id="inputAddress" placeholder="Street Name or locality..">
+  </div>
+  <div class="form-row">
+    <div class="form-group col-sm-6" style="text-align: left;">
+      <label for="inputAddress2" style="color:#ffba00; font-size:17px; font-weight:600;">Address 2</label>
+      <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment name,holding no.">
+    </div>
+    <div class="form-group col-sm-6" style="text-align: left;">
+      <label for="inputCity" style="color:#ffba00; font-size:17px; font-weight:600;">City</label>
+      <input type="text" class="form-control" id="inputCity" placeholder="City">
+    </div>
+  </div>
+  <div class="form-row">
+    <div class="form-group col-sm-6" style="text-align: left;">
+      <label for="inputPeople" style="color:#ffba00; font-size:17px; font-weight:600;">Total People</label>
+      <select id="inputPeople" class="form-control">
+        <option selected>2</option>
+        <option>3</option>
+        <option>4</option>
+        <option>5</option>
+        <option>6</option>
+        <option>7</option>
+        <option>8</option>
+        <option>9</option>
+        <option>10</option>
+        <option>11</option>
+        <option>12</option>
+      </select>
+    </div>
+    <div class="form-group col-sm-6" style="text-align: left;">
+        <label for="inputTable" style="color:#ffba00; font-size:17px; font-weight:600;">No. of Table you want</label>
+        <select id="inputTable" class="form-control">
+          <option selected>1</option>
+          <option>2</option>
+          <option>3</option>
+          <option>4</option>
+          <option>5</option>
+          <option>6</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group col-sm-6" style="text-align: left;">
+      <label for="exampleFormControlFile1" style="color:#ffba00; font-size:17px; font-weight:600;">Upload your photo</label>
+      <input type="file" class="form-control-file" id="exampleFormControlFile1" style="background-color:white";>
+  </div>
+  <div class="form-group col-sm-6" style="text-align: left;">
+    <label for="inputComment" style="color:#ffba00; font-size:17px; font-weight:600;">Any Comment</label>
+      <input type="text" class="form-control" placeholder="Message...">
+</div>
+</div>
+
+  <div class="form-group">
+    <div class="form-check">
+      <input class="form-check-input" type="checkbox" id="gridCheck">
+      <label class="form-check-label" for="gridCheck" style="color:#ffba00; font-size: 16px; font-weight: bold;">
+        Check me out
+      </label>
+    </div>
+  </div>
+  <button type="submit" class="btn btn-warning hvr-buzz-out">Submit</button><br><br>
+</form>
+
+
+</div><br>    
+<!-- Login ends HERE -->
+
+
+
+<!-- start of footer -->
+<div class="container-fluid"> 
+  <div class="row" style="background-color:#101010; padding-bottom: 6px; padding-top: 15px; padding-left: 15px; padding-right:15px;">
+    <div class="col-md-3" style="padding-top:15px; padding-bottom: 15px;">
+    <h3 style="text-align: center; color:#ffba00; font-size:19px; font-weight:bold;">Our Services</h3>
+      
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Becoming an good resource.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Improve interaction with existing and potential customers.</h5>
+      <h5 style="font-size: 16px; text-align: left;color:#ffffff;"><img src="images/right.jpg">&nbsp;Providing quality content on your dishes,regularly adding new recipes.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Chase the Flavours.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Deliciousness Jumping into the mouth.</h5>
+      <h5 style="font-size: 16px; text-align: left; color:#ffffff;"><img src="images/right.jpg">&nbsp;Quality, Quantity & Taste is everything, provides a qualty time.</h5>
+    </div>  
+    
+    <div class="col-md-2" style="padding-top:15px; padding-bottom: 15px;" >
+      <h3 style="text-align: center;  color:#ffba00; font-size:19px; font-weight:bold;">Useful links</h3>
+      <a href="index.html" style="color:#ffffff; font-size: 18px;">Home</a><br><br>
+      <a href="menu.html" style="color:#ffffff; font-size: 18px;">Menu</a><br><br>
+      <a href="gallery.html" style="color:#ffffff; font-size: 18px;">Gallery</a><br><br>
+      <a href="book.html" style="color:#ffffff; font-size: 18px;">Book Table</a><br><br>
+      <a href="contact_us.html" style="color:#ffffff; font-size: 18px;">Contact Us</a>
+    </div>
+    
+    <div class="col-md-4" style="padding-top:15px; padding-bottom: 15px;">
+    <h3 style="text-align: center; color:#ffba00; font-size:19px; font-weight:bold;">Contact us</h3>
+    <h4 style="font-size: 16px; color:#ffffff"><img src="images/ADDRESS.png" alt="" width="20" height="30">&nbsp;&nbsp;Radhabazar Park,<br>&nbsp;Radha Bazar, Nabadwip-741302 ;<br>State : West Bengal.</h4><br>
+    <h4 style="font-size: 17px; color:#ffffff"><img src="images/MOBILE.png" alt="" width="42" height="45">&nbsp;+919434829534</h4><br>
+    <h4 style="font-size: 16px; color:#ffffff"><img src="images/MailFoot.jpg" alt="" width="26" height="26">&nbsp;&nbsp;creative_designers@<br>gmail.com</h4><br>
+    <h4 style="font-size: 17px; color:#ffffff"><img src="images/WP1.jpg" alt="" width="30" height="30" style="border-radius: 10px;">&nbsp;&nbsp;+919434823492</h4>><br>
+    </div>
+  
+    <div class="col-md-3" style="padding-top:15px; padding-bottom: 5px;">
+    <h3 style="text-align: center; color:#ffba00; font-size:19px; font-weight:bold;">Create your Profile</h3>
+      <h4 style="text-align: justify;  font-size: 16px; color:#ffffff"><img src="images/right.jpg">&nbsp;New in our site ? Chcek our Dishes & our Restaurant then register here to get special offers .</h4><br>
+      <button type="button" class="btn btn-warning hvr-buzz-out" style="font-size: 17px; font-weight:540;"><a href="contact_us.html">Register</a></button><br><br>
+      <h4 style="text-align: justify; font-size: 16px; color:#ffffff"><img src="images/right.jpg">&nbsp;Already have a profile ? then login here , else register to get special offers .</h4><br>
+      <button type="button" class="btn btn-warning hvr-buzz-out" style="font-size: 17px; font-weight:540;"><a href="login.html">Login</a></button>
+    </div> </div> </div>
+
+  <!--Footer_top End-->
+
+<!--Footer_Bottom Start-->  
+
+  <div class="container-fluid" style="background-color: #000000;">
+    <div class="row" style="padding-left:30px; padding-right:30px; padding-top: 10px; padding-bottom: 10px;">
+      <div class="col-lg-4" style="padding-top: 12px; padding-bottom: 3px;">
+      <p class="w3-hover-opacity" style="font-weight: 500; color:#ffba00; font-size:16px; text-align:center;">CopyrightⒸ2020. All Rights Reserved.</p>
+      </div>  
+  <div class="col-lg-4" style="padding-top: 12px; padding-bottom: 3px;">
+    <span style="font-size:17px; color:#ffffff; font-weight:700px;">Follow us on : </span>&nbsp;
+      <a href="http://www.facebook.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="Facebook" class="w3-spin" src="images/link_fb.png" alt="" width="32" height="32"/></a>
+      <a href="http://www.twitter.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="Twitter" class="w3-spin" src="images/link_tw.png" alt="" width="32" height="32"/></a>
+      <a href="http://www.youtube.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="youtube" class="w3-spin" src="images/link_yt.png" alt="" width="32" height="32"/></a>
+      <a href="http://www.gmail.com" target="_blank"><img data-toggle="tooltip" data-placement="right" title="Gmail" class="w3-spin" src="images/link_ml.png" alt="" width="32" height="32"/></a>
+  </div>  
+    <div class="col-lg-4" style="padding-top: 12px; padding-bottom: 3px;">  
+      <p style="text-align:center; color:#ffba00; font-size:17px; font-style: arial; font-weight: 600;">Designed & powered by: <strong>Saptaswa</strong></p>
+    </div>
+    </div>
+  </div>
+  
+<!--Footer_Bottom End-->
+
+<!-- ALL SCRIPTING LAGUAGES ARE LINKED HERE:STARTING-->
+  <script src="js/popper.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/slim.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/bootstrap.min.js" language="javascript" type="text/javascript"></script>
+<script src="js/css3-animate-it.js" language="javascript" type="text/javascript"></script>
+
+
+<!-- ALL SCRIPTING LAGUAGES ARE LINKED HERE:ENDING -->
+
+
+<script>
+//Get the button
+var mybutton = document.getElementById("scroll");
+
+// When the user scrolls down 20px from the top of the document, show the button
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+  } else {
+    mybutton.style.display = "none";
+  }
+}
+
+// When the user clicks on the button, scroll to the top of the document
+function topFunction() {
+  document.body.scrollTop = 0;
+  document.documentElement.scrollTop = 0;
+}
+</script>
+</body>
+</html>
